@@ -30,8 +30,8 @@ Partial Class DataMerk
         Me.ButtonUbah = New System.Windows.Forms.Button()
         Me.ButtonHapus = New System.Windows.Forms.Button()
         Me.ButtonBatal = New System.Windows.Forms.Button()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.DataGridViewMerk = New System.Windows.Forms.DataGridView()
+        CType(Me.DataGridViewMerk, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TextBoxID
@@ -102,20 +102,20 @@ Partial Class DataMerk
         Me.ButtonBatal.Text = "Batal"
         Me.ButtonBatal.UseVisualStyleBackColor = True
         '
-        'DataGridView1
+        'DataGridViewMerk
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(15, 122)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(257, 327)
-        Me.DataGridView1.TabIndex = 8
+        Me.DataGridViewMerk.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridViewMerk.Location = New System.Drawing.Point(15, 122)
+        Me.DataGridViewMerk.Name = "DataGridViewMerk"
+        Me.DataGridViewMerk.Size = New System.Drawing.Size(257, 327)
+        Me.DataGridViewMerk.TabIndex = 8
         '
         'DataMerk
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 461)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.DataGridViewMerk)
         Me.Controls.Add(Me.ButtonBatal)
         Me.Controls.Add(Me.ButtonHapus)
         Me.Controls.Add(Me.ButtonUbah)
@@ -126,7 +126,7 @@ Partial Class DataMerk
         Me.Controls.Add(Me.TextBoxID)
         Me.Name = "DataMerk"
         Me.Text = "Data Merk"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridViewMerk, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -140,5 +140,5 @@ Partial Class DataMerk
     Friend WithEvents ButtonUbah As Button
     Friend WithEvents ButtonHapus As Button
     Friend WithEvents ButtonBatal As Button
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents DataGridViewMerk As DataGridView
 End Class
