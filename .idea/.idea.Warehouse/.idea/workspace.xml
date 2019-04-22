@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dec84a7-f4a9-41f6-a9f8-e625fb63e6ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Warehouse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Warehouse/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Warehouse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Warehouse/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Warehouse/DataBarang.vb" beforeDir="false" afterPath="$PROJECT_DIR$/Warehouse/DataBarang.vb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,57 +27,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Warehouse/MainMenu.vb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="35" />
-              <folding>
-                <marker date="1555908384432" expanded="true" signature="21:1311" ph="..." />
-                <marker date="1555908384432" expanded="true" signature="148:361" ph="..." />
-                <marker date="1555908384432" expanded="true" signature="458:502" ph="..." />
-                <marker date="1555908384432" expanded="true" signature="595:673" ph="..." />
-                <marker date="1555908384432" expanded="true" signature="770:854" ph="..." />
-                <marker date="1555908384432" expanded="true" signature="957:1004" ph="..." />
-                <marker date="1555908384432" expanded="true" signature="1107:1154" ph="..." />
-                <marker date="1555908384432" expanded="true" signature="1237:1310" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Warehouse/DataBarang.vb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="168" column="16" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding>
-                <marker date="1555915109312" expanded="true" signature="58:7294" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="237:268" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="375:460" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="571:660" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="761:1212" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="1237:1511" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="1536:1951" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="1978:2413" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="2429:2927" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="3020:3483" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="3578:3840" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="3935:3967" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="4076:4590" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="4697:5980" ph="..." />
-                <marker date="1555915109312" expanded="true" signature="6127:7293" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Warehouse/TransaksiBeli.vb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1555908384434" expanded="true" signature="27:28" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="58:7322" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="237:268" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="401:488" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="599:688" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="789:1240" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="1265:1539" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="1564:1979" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="2006:2441" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="2457:2955" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="3048:3511" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="3606:3868" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="3963:3995" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="4104:4618" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="4725:6008" ph="..." />
+                <marker date="1555917500940" expanded="true" signature="6155:7321" ph="..." />
               </folding>
             </state>
           </provider>
@@ -194,12 +164,12 @@
       <updated>1555680762685</updated>
       <workItem from="1555680764734" duration="4373000" />
       <workItem from="1555825081666" duration="1259000" />
-      <workItem from="1555908407571" duration="1584000" />
+      <workItem from="1555908407571" duration="2872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7216000" />
+    <option name="totallyTimeSpent" value="8504000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,15 +227,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Warehouse/DataMerk.vb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1554449443278" expanded="true" signature="22:23" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Warehouse/My Project/Application.Designer.vb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -294,16 +255,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/556A6BA2-C0A5-46F1-AD23-18C309CE0945/11/4d1e7e74/Form.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="2967" column="27" selection-start-line="2967" selection-start-column="27" selection-end-line="2967" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Warehouse/MainMenu.vb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="225">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="35" />
           <folding>
             <marker date="1555908384432" expanded="true" signature="21:1311" ph="..." />
@@ -318,35 +272,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Warehouse/DataMerk.vb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1555917060637" expanded="true" signature="21:707" ph="..." />
+            <marker date="1555917060637" expanded="true" signature="105:118" ph="..." />
+            <marker date="1555917060637" expanded="true" signature="215:228" ph="..." />
+            <marker date="1555917060637" expanded="true" signature="321:334" ph="..." />
+            <marker date="1555917060637" expanded="true" signature="429:442" ph="..." />
+            <marker date="1555917060637" expanded="true" signature="537:550" ph="..." />
+            <marker date="1555917060637" expanded="true" signature="693:706" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/556A6BA2-C0A5-46F1-AD23-18C309CE0945/11/4d1e7e74/Form.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="2967" column="27" selection-start-line="2967" selection-start-column="27" selection-end-line="2967" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Warehouse/TransaksiBeli.vb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1555908384434" expanded="true" signature="27:28" ph="..." />
+            <marker date="1555917060638" expanded="true" signature="26:741" ph="..." />
+            <marker date="1555917060638" expanded="true" signature="115:128" ph="..." />
+            <marker date="1555917060638" expanded="true" signature="225:238" ph="..." />
+            <marker date="1555917060638" expanded="true" signature="335:348" ph="..." />
+            <marker date="1555917060638" expanded="true" signature="443:456" ph="..." />
+            <marker date="1555917060638" expanded="true" signature="580:593" ph="..." />
+            <marker date="1555917060638" expanded="true" signature="727:740" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Warehouse/DataBarang.vb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="168" column="16" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
+        <state relative-caret-position="270">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding>
-            <marker date="1555915109312" expanded="true" signature="58:7294" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="237:268" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="375:460" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="571:660" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="761:1212" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="1237:1511" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="1536:1951" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="1978:2413" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="2429:2927" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="3020:3483" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="3578:3840" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="3935:3967" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="4076:4590" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="4697:5980" ph="..." />
-            <marker date="1555915109312" expanded="true" signature="6127:7293" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="58:7322" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="237:268" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="401:488" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="599:688" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="789:1240" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="1265:1539" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="1564:1979" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="2006:2441" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="2457:2955" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="3048:3511" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="3606:3868" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="3963:3995" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="4104:4618" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="4725:6008" ph="..." />
+            <marker date="1555917500940" expanded="true" signature="6155:7321" ph="..." />
           </folding>
         </state>
       </provider>

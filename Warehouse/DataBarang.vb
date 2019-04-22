@@ -8,9 +8,9 @@ Public Class DataBarang
        Call Atur()
     End Sub
     
-    Private Sub RadioButtonMerk_Click(sender As Object, e As EventArgs) Handles RadioButtonMerk.Click
-        DataMerk.Text = "Data Merk Barang"
-        DataMerk.ShowDialog()
+    Private Sub RadioButtonMerk_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButtonMerk.Click
+        Data_Merk.Text = "Data Merk Barang"
+        Data_Merk.ShowDialog()
     End Sub
     
     Private Sub RadioButtonSatuan_Click(sender As Object, e As EventArgs) Handles RadioButtonSatuan.Click
