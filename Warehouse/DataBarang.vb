@@ -104,6 +104,24 @@ Public Class DataBarang
     End Sub
 
     Private Sub ButtonKoreksiStock_Click(sender As Object, e As EventArgs) Handles ButtonKoreksiStock.Click
-        Dim Jumlah = InputBox("Masukan Jumlah Barang")
+        Dim Jumlah = InputBox("Masukan Jumlah Barang", "Tambah Stock")
+        On Error GoTo Pesan
+        Dim Tambah_Stock = Val(TextBoxStock.Text) + Val(Jumlah)
+        SQL = "UPDATE Barang SET Stock = '" & Tambah_Stock & "' WHERE ID = '" & TextBoxID.Text & "' "
+        Proses.ExecuteNonQuery(SQL)
+        MessageBox.Show("Stock Telah Ditambahkan!", "Penambahan Sukses!", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+        Call Atur()
+        Exit Sub
+Pesan:
+        MsgBox("Masukan Angka")
+    End Sub
+
+    Private Sub TextBoxCari_TextChanged(sender As Object, e As EventArgs) Handles TextBoxCari.TextChanged
+
+    End Sub
+
+    Private Sub DataGridViewBarang_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridViewBarang.CellContentClick
+
     End Sub
 End Class
