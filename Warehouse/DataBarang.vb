@@ -118,10 +118,55 @@ Pesan:
     End Sub
 
     Private Sub TextBoxCari_TextChanged(sender As Object, e As EventArgs) Handles TextBoxCari.TextChanged
-
+        If RadioButtonNamaBarang.Checked = True Then
+            Barang = Proses.ExecuteQuery("SELECT * FROM Query_Barang WHERE Nama LIKE '%" & TextBoxCari.Text & "%' ORDER BY ID DESC")
+            
+            DataGridViewBarang.DataSource = Barang
+            DataGridViewBarang.Columns(0).Width = 50
+            DataGridViewBarang.Columns(1).Width = 195
+            DataGridViewBarang.Columns(6).Width = 50
+            
+        ElseIf RadioButtonMerk.Checked = True Then
+             Barang = Proses.ExecuteQuery("SELECT * FROM Query_Barang WHERE Merek LIKE '%" & TextBoxCari.Text & "%' ORDER BY ID DESC ")
+        
+            DataGridViewBarang.DataSource = Barang
+            DataGridViewBarang.Columns(0).Width = 50
+            DataGridViewBarang.Columns(1).Width = 195
+            DataGridViewBarang.Columns(6).Width = 50
+                
+        ElseIf RadioButtonSatuan.Checked = True Then
+            Barang = Proses.ExecuteQuery("SELECT * FROM Query_Barang WHERE Satuan LIKE '%" & TextBoxCari.Text & "%' ORDER BY ID DESC ")
+        
+            DataGridViewBarang.DataSource = Barang
+            DataGridViewBarang.Columns(0).Width = 50
+            DataGridViewBarang.Columns(1).Width = 195
+            DataGridViewBarang.Columns(6).Width = 50
+        End If
     End Sub
 
     Private Sub DataGridViewBarang_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridViewBarang.CellContentClick
-
+        Try
+            Select Case Me.Text
+            Case "Data Barang"
+                TextBoxID.Text = DataGridViewBarang.SelectedCells(0).Value
+                TextBoxNama.Text = DataGridViewBarang.SelectedCells(1).Value
+                ComboBoxMerk.Text = DataGridViewBarang.SelectedCells(2).Value
+                ComboBoxSatuan.Text = DataGridViewBarang.SelectedCells(3).Value
+                TextBoxHargaBeli.Text = DataGridViewBarang.SelectedCells(4).Value
+                TextBoxHargaJual.Text = DataGridViewBarang.SelectedCells(5).Value
+                TextBoxStock.Text = DataGridViewBarang.SelectedCells(6).Value
+                TextBoxID.ReadOnly = True
+                ButtonTambah.Enabled = False
+                ButtonUbah.Enabled = True
+                ButtonHapus.Enabled = True
+                ButtonKoreksiStock.Enabled = True
+            Case "Data Barang Pembelian"
+                TransaksiBeli.ComboBoxID.Text = "" & DataGridViewBarang.SelectedCells(0).Value & "/" & DataGridViewBarang.SelectedCells(1).Value & ""
+                Me.Close()
+            End Select
+            
+            Catch
+                
+        End Try
     End Sub
 End Class
