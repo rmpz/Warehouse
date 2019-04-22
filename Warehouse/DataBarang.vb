@@ -3,21 +3,21 @@ Public Class DataBarang
     Dim SQL as String
     Dim Proses As New ConnectionClass
     Dim Barang As DataTable
-    
+
     Private Sub DataBarang_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-       Call Atur()
+        Call Atur()
     End Sub
-    
-    Private Sub RadioButtonMerk_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButtonMerk.Click
-        Data_Merk.Text = "Data Merk Barang"
-        Data_Merk.ShowDialog()
+
+    Private Sub ButtonMerk_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonMerk.Click
+        DataMerk.Text = "Data Merk"
+        DataMerk.ShowDialog()
     End Sub
-    
-    Private Sub RadioButtonSatuan_Click(sender As Object, e As EventArgs) Handles RadioButtonSatuan.Click
-        DataSatuan.Text = "Data Merk Satuan"
+
+    Private Sub ButtonSatuan_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonSatuan.Click
+        DataSatuan.Text = "Data Satuan"
         DataSatuan.ShowDialog()
     End Sub
-    
+
     Private Sub ButtonTambah_Click(sender As Object, e As EventArgs) Handles ButtonTambah.Click
         SQL = "INSERT INTO Barang VALUES ('" & TextBoxID.Text & "', '" & TextBoxNama.Text & "', '" & vb.Left(ComboBoxMerk.Text, 7) & "', '" & TextBoxHargaBeli.Text & "', '" & TextBoxHargaJual.Text & "', '" & TextBoxStock.Text & "')"
         
@@ -169,4 +169,6 @@ Pesan:
                 
         End Try
     End Sub
+
+
 End Class

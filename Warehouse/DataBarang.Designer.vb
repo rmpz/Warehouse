@@ -47,6 +47,8 @@ Partial Class DataBarang
         Me.ButtonHapus = New System.Windows.Forms.Button()
         Me.ButtonBatal = New System.Windows.Forms.Button()
         Me.ButtonKoreksiStock = New System.Windows.Forms.Button()
+        Me.ButtonMerk = New System.Windows.Forms.Button()
+        Me.ButtonSatuan = New System.Windows.Forms.Button()
         CType(Me.DataGridViewBarang, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -267,11 +269,31 @@ Partial Class DataBarang
         Me.ButtonKoreksiStock.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ButtonKoreksiStock.UseVisualStyleBackColor = True
         '
+        'ButtonMerk
+        '
+        Me.ButtonMerk.Location = New System.Drawing.Point(277, 64)
+        Me.ButtonMerk.Name = "ButtonMerk"
+        Me.ButtonMerk.Size = New System.Drawing.Size(54, 23)
+        Me.ButtonMerk.TabIndex = 25
+        Me.ButtonMerk.Text = "Merk"
+        Me.ButtonMerk.UseVisualStyleBackColor = True
+        '
+        'ButtonSatuan
+        '
+        Me.ButtonSatuan.Location = New System.Drawing.Point(277, 91)
+        Me.ButtonSatuan.Name = "ButtonSatuan"
+        Me.ButtonSatuan.Size = New System.Drawing.Size(54, 23)
+        Me.ButtonSatuan.TabIndex = 26
+        Me.ButtonSatuan.Text = "Satuan"
+        Me.ButtonSatuan.UseVisualStyleBackColor = True
+        '
         'DataBarang
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(784, 461)
+        Me.Controls.Add(Me.ButtonSatuan)
+        Me.Controls.Add(Me.ButtonMerk)
         Me.Controls.Add(Me.ButtonKoreksiStock)
         Me.Controls.Add(Me.ButtonBatal)
         Me.Controls.Add(Me.ButtonHapus)
@@ -330,4 +352,6 @@ Partial Class DataBarang
     Friend WithEvents ButtonHapus As Button
     Friend WithEvents ButtonBatal As Button
     Friend WithEvents ButtonKoreksiStock As Button
+    Friend WithEvents ButtonMerk As Button
+    Friend WithEvents ButtonSatuan As Button
 End Class
